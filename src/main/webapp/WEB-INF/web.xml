@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+          http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+
+  <servlet>
+    <servlet-name>experienceServlet</servlet-name>
+    <servlet-class>ru.itprogram.resource.ExperienceServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>experienceServlet</servlet-name>
+    <url-pattern>/experience</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>professionServlet</servlet-name>
+    <servlet-class>ru.itprogram.resource.ProfessionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>professionServlet</servlet-name>
+    <url-pattern>/profession</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>phoneServlet</servlet-name>
+    <servlet-class>ru.itprogram.resource.PhoneServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>phoneServlet</servlet-name>
+    <url-pattern>/phone</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>emailServlet</servlet-name>
+    <servlet-class>ru.itprogram.resource.EmailServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>emailServlet</servlet-name>
+    <url-pattern>/email</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>applicantServlet</servlet-name>
+    <servlet-class>ru.itprogram.resource.ApplicantServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>applicantServlet</servlet-name>
+    <url-pattern>/applicant</url-pattern>
+  </servlet-mapping>
+
+</web-app>
